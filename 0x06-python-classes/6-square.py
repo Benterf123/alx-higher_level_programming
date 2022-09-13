@@ -35,7 +35,7 @@ class Square:
         """Getter of the private attribute size"""
         return (self.__size)
 
-    @size.setter
+    @size.sette
     def size(self, value):
         """Setter for the size private attribute"""
         if (type(value) is not int):
@@ -59,4 +59,4 @@ class Square:
                 or (value[0] < 0) or (value[1] < 0):
             raise TypeError("position must be a tuple of 2 positive integers")
         else:
-            elf.__position = value
+            self.__position = value
