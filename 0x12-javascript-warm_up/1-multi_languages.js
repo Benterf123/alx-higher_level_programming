@@ -5,3 +5,4 @@ let myVariable3 = 'JavaScript is amazing';
 console.log(myVariable1);
 console.log(myVariable2);
 console.log(myVariable3);
+
